@@ -7,4 +7,4 @@ from detektor_suhu.models import stats
 class StatsSerializer (serializers.ModelSerializer):
     class Meta:
         model = stats
-        fields = ' __all__ '
+        fields = "__all__"
